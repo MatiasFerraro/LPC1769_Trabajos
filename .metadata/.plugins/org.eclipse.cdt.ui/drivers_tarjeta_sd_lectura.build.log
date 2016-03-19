@@ -1,0 +1,34 @@
+16:06:47 **** Incremental Build of configuration Debug for project drivers_tarjeta_sd_lectura ****
+make -r all 
+Building file: ../src/drivers_tarjeta_sd_lectura.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\drivers_tarjeta_sd_lectura\src\SD" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/drivers_tarjeta_sd_lectura.d" -MT"src/drivers_tarjeta_sd_lectura.o" -MT"src/drivers_tarjeta_sd_lectura.d" -o "src/drivers_tarjeta_sd_lectura.o" "../src/drivers_tarjeta_sd_lectura.c"
+../src/drivers_tarjeta_sd_lectura.c: In function 'main':
+../src/drivers_tarjeta_sd_lectura.c:20:9: warning: unused variable 'ptr' [-Wunused-variable]
+   char *ptr;
+         ^
+../src/drivers_tarjeta_sd_lectura.c:19:11: warning: variable 'errf' set but not used [-Wunused-but-set-variable]
+   FRESULT errf;
+           ^
+../src/drivers_tarjeta_sd_lectura.c:18:11: warning: variable 'errd' set but not used [-Wunused-but-set-variable]
+   DSTATUS errd;
+           ^
+../src/drivers_tarjeta_sd_lectura.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/drivers_tarjeta_sd_lectura.c
+ 
+Building target: drivers_tarjeta_sd_lectura.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="drivers_tarjeta_sd_lectura.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "drivers_tarjeta_sd_lectura_Debug.ld" -o "drivers_tarjeta_sd_lectura.axf"  ./src/SD/ccsbcs.o ./src/SD/comm.o ./src/SD/diskio.o ./src/SD/fattime.o ./src/SD/ff.o ./src/SD/ff_test_term.o ./src/SD/init.o ./src/SD/lpc17xx_clkpwr.o ./src/SD/lpc17xx_gpio.o ./src/SD/lpc17xx_libcfg_default.o ./src/SD/lpc17xx_nvic.o ./src/SD/lpc17xx_pinsel.o ./src/SD/lpc17xx_rtc.o ./src/SD/lpc17xx_ssp.o ./src/SD/lpc17xx_uart.o ./src/SD/monitor.o ./src/SD/rtc_cal.o ./src/SD/spi_sd_lpc17xx.o ./src/SD/uart.o  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/drivers_tarjeta_sd_lectura.o ./src/lcd.o ./src/puertos.o   -lCMSISv2p00_LPC17xx
+Finished building target: drivers_tarjeta_sd_lectura.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "drivers_tarjeta_sd_lectura.axf"; # arm-none-eabi-objcopy -v -O binary "drivers_tarjeta_sd_lectura.axf" "drivers_tarjeta_sd_lectura.bin" ; # checksum -p LPC1769 -d "drivers_tarjeta_sd_lectura.bin";
+   text	   data	    bss	    dec	    hex	filename
+  23560	      8	   7772	  31340	   7a6c	drivers_tarjeta_sd_lectura.axf
+ 
+
+16:06:48 Build Finished (took 1s.326ms)
+

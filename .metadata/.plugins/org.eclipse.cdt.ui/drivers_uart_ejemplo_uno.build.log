@@ -1,0 +1,26 @@
+20:15:46 **** Build of configuration Debug for project drivers_uart_ejemplo_uno ****
+make -r all 
+Building file: ../src/main-uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main-uart.d" -MT"src/main-uart.o" -MT"src/main-uart.d" -o "src/main-uart.o" "../src/main-uart.c"
+Finished building: ../src/main-uart.c
+ 
+Building file: ../src/uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/uart.d" -MT"src/uart.o" -MT"src/uart.d" -o "src/uart.o" "../src/uart.c"
+Finished building: ../src/uart.c
+ 
+Building target: drivers_uart_ejemplo_uno.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="drivers_uart_ejemplo_uno.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "drivers_uart_ejemplo_uno_Debug.ld" -o "drivers_uart_ejemplo_uno.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/main-uart.o ./src/uart.o   -lCMSISv2p00_LPC17xx
+Finished building target: drivers_uart_ejemplo_uno.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "drivers_uart_ejemplo_uno.axf"; # arm-none-eabi-objcopy -v -O binary "drivers_uart_ejemplo_uno.axf" "drivers_uart_ejemplo_uno.bin" ; # checksum -p LPC1769 -d "drivers_uart_ejemplo_uno.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1684	      4	      0	   1688	    698	drivers_uart_ejemplo_uno.axf
+ 
+
+20:15:50 Build Finished (took 3s.751ms)
+

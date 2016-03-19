@@ -1,0 +1,11 @@
+19:10:50 **** Build of configuration Debug for project driver_lcd_oo ****
+make -r all 
+Building target: driver_lcd_oo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="driver_lcd_oo.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "driver_lcd_oo_Debug.ld" -o "driver_lcd_oo.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/lcd.o ./src/main-lcd.o ./src/puertos.o   -lCMSIS_CORE_LPC17xx
+c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/ld.exe: cannot find -lCMSIS_CORE_LPC17xx
+collect2.exe: error: ld returned 1 exit status
+make: *** [driver_lcd_oo.axf] Error 1
+
+19:10:51 Build Finished (took 1s.388ms)
+

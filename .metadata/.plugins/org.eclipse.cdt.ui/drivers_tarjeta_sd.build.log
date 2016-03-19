@@ -1,0 +1,398 @@
+15:22:38 **** Build of configuration Debug for project drivers_tarjeta_sd ****
+make -r all 
+Building file: ../src/SD/comm.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/comm.d" -MT"src/SD/comm.o" -MT"src/SD/comm.d" -o "src/SD/comm.o" "../src/SD/comm.c"
+In file included from ../src/SD/comm.c:20:0:
+../src/SD/comm.c: In function 'UART_IntReceive':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_Receive' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:124:23: note: in expansion of macro 'TEST_UART'
+   rLen = UART_Receive(TEST_UART, &tmpc, 1, NONE_BLOCKING);
+                       ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:608:10: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ uint32_t UART_Receive(LPC_UART_TypeDef *UARTx, uint8_t *rxbuf, uint32_t buflen, TRANSFER_BLOCK_Type flag);
+          ^
+In file included from ../src/SD/comm.c:20:0:
+../src/SD/comm.c: In function 'UART_IntTransmit':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_IntConfig' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:153:17: note: in expansion of macro 'TEST_UART'
+  UART_IntConfig(TEST_UART, UART_INTCFG_THRE, DISABLE);
+                 ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:588:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_IntConfig(LPC_UART_TypeDef *UARTx, UART_INT_Type UARTIntCfg, \
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_CheckBusy' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:158:24: note: in expansion of macro 'TEST_UART'
+  while (UART_CheckBusy(TEST_UART) == SET)
+                        ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:591:12: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ FlagStatus UART_CheckBusy(LPC_UART_TypeDef *UARTx);
+            ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_Send' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:164:17: note: in expansion of macro 'TEST_UART'
+   if (UART_Send(TEST_UART, (uint8_t *) &rb.tx[rb.tx_tail], 1,
+                 ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:607:10: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ uint32_t UART_Send(LPC_UART_TypeDef *UARTx, uint8_t *txbuf, uint32_t buflen, TRANSFER_BLOCK_Type flag);
+          ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_IntConfig' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:180:18: note: in expansion of macro 'TEST_UART'
+   UART_IntConfig(TEST_UART, UART_INTCFG_THRE, DISABLE);
+                  ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:588:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_IntConfig(LPC_UART_TypeDef *UARTx, UART_INT_Type UARTIntCfg, \
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_IntConfig' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:188:18: note: in expansion of macro 'TEST_UART'
+   UART_IntConfig(TEST_UART, UART_INTCFG_THRE, ENABLE);
+                  ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:588:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_IntConfig(LPC_UART_TypeDef *UARTx, UART_INT_Type UARTIntCfg, \
+      ^
+../src/SD/comm.c: In function 'UART_IntErr':
+../src/SD/comm.c:199:10: warning: variable 'test' set but not used [-Wunused-but-set-variable]
+  uint8_t test;
+          ^
+In file included from ../src/SD/comm.c:20:0:
+../src/SD/comm.c: In function 'uart_init_intern':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_Init' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:354:12: note: in expansion of macro 'TEST_UART'
+  UART_Init(TEST_UART, &UARTConfigStruct);
+            ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:580:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_Init(LPC_UART_TypeDef *UARTx, UART_CFG_Type *UART_ConfigStruct);
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_FIFOConfig' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:366:18: note: in expansion of macro 'TEST_UART'
+  UART_FIFOConfig(TEST_UART, &UARTFIFOConfigStruct);
+                  ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:592:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_FIFOConfig(LPC_UART_TypeDef *UARTx, UART_FIFO_CFG_Type *FIFOCfg);
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_SetupCbs' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:370:16: note: in expansion of macro 'TEST_UART'
+  UART_SetupCbs(TEST_UART, 0, (void *) UART_IntReceive);
+                ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:609:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_SetupCbs(LPC_UART_TypeDef *UARTx, uint8_t CbType, void *pfnCbs);
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_SetupCbs' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:372:16: note: in expansion of macro 'TEST_UART'
+  UART_SetupCbs(TEST_UART, 1, (void *) UART_IntTransmit);
+                ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:609:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_SetupCbs(LPC_UART_TypeDef *UARTx, uint8_t CbType, void *pfnCbs);
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_SetupCbs' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:374:16: note: in expansion of macro 'TEST_UART'
+  UART_SetupCbs(TEST_UART, 3, (void *) UART_IntErr);
+                ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:609:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_SetupCbs(LPC_UART_TypeDef *UARTx, uint8_t CbType, void *pfnCbs);
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_TxCmd' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:377:13: note: in expansion of macro 'TEST_UART'
+  UART_TxCmd(TEST_UART, ENABLE);
+             ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:596:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_TxCmd(LPC_UART_TypeDef *UARTx, FunctionalState NewState);
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_IntConfig' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:380:17: note: in expansion of macro 'TEST_UART'
+  UART_IntConfig(TEST_UART, UART_INTCFG_RBR, ENABLE);
+                 ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:588:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_IntConfig(LPC_UART_TypeDef *UARTx, UART_INT_Type UARTIntCfg, \
+      ^
+In file included from ../src/SD/comm.c:20:0:
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_IntConfig' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:382:17: note: in expansion of macro 'TEST_UART'
+  UART_IntConfig(TEST_UART, UART_INTCFG_RLS, ENABLE);
+                 ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:588:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_IntConfig(LPC_UART_TypeDef *UARTx, UART_INT_Type UARTIntCfg, \
+      ^
+In file included from ../src/SD/comm.c:20:0:
+../src/SD/comm.c: In function 'comm_get':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UARTReceive' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:424:22: note: in expansion of macro 'TEST_UART'
+  while ( UARTReceive(TEST_UART, buf, 1) < 1 ) { ; }
+                      ^
+../src/SD/comm.c:271:17: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ static uint32_t UARTReceive(LPC_UART_TypeDef *UARTPort, uint8_t *rxbuf, uint8_t buflen)
+                 ^
+In file included from ../src/SD/comm.c:20:0:
+../src/SD/comm.c: In function 'comm_put':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UARTSend' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:433:19: note: in expansion of macro 'TEST_UART'
+  while ( UARTSend(TEST_UART, buf, 1) < 1 ) { ; }
+                   ^
+../src/SD/comm.c:216:17: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ static uint32_t UARTSend(LPC_UART_TypeDef *UARTPort, uint8_t txbuf[], uint8_t buflen)
+                 ^
+In file included from ../src/SD/comm.c:20:0:
+../src/SD/comm.c: In function 'comm_txbusy':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/lpc17xx.h:999:31: warning: passing argument 1 of 'UART_CheckBusy' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/comm.c:30:19: note: in expansion of macro 'LPC_UART0'
+ #define TEST_UART LPC_UART0
+                   ^
+../src/SD/comm.c:451:26: note: in expansion of macro 'TEST_UART'
+  return ( UART_CheckBusy(TEST_UART) == SET ) ? 1 : 0;
+                          ^
+In file included from ../src/SD/comm.c:21:0:
+../src/SD/lpc17xx_uart.h:591:12: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ FlagStatus UART_CheckBusy(LPC_UART_TypeDef *UARTx);
+            ^
+Finished building: ../src/SD/comm.c
+ 
+Building file: ../src/SD/fattime.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/fattime.d" -MT"src/SD/fattime.o" -MT"src/SD/fattime.d" -o "src/SD/fattime.o" "../src/SD/fattime.c"
+Finished building: ../src/SD/fattime.c
+ 
+Building file: ../src/SD/ff_test_term.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/ff_test_term.d" -MT"src/SD/ff_test_term.o" -MT"src/SD/ff_test_term.d" -o "src/SD/ff_test_term.o" "../src/SD/ff_test_term.c"
+Finished building: ../src/SD/ff_test_term.c
+ 
+Building file: ../src/SD/init.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/init.d" -MT"src/SD/init.o" -MT"src/SD/init.d" -o "src/SD/init.o" "../src/SD/init.c"
+Finished building: ../src/SD/init.c
+ 
+Building file: ../src/SD/lpc17xx_clkpwr.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_clkpwr.d" -MT"src/SD/lpc17xx_clkpwr.o" -MT"src/SD/lpc17xx_clkpwr.d" -o "src/SD/lpc17xx_clkpwr.o" "../src/SD/lpc17xx_clkpwr.c"
+Finished building: ../src/SD/lpc17xx_clkpwr.c
+ 
+Building file: ../src/SD/lpc17xx_gpio.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_gpio.d" -MT"src/SD/lpc17xx_gpio.o" -MT"src/SD/lpc17xx_gpio.d" -o "src/SD/lpc17xx_gpio.o" "../src/SD/lpc17xx_gpio.c"
+In file included from ../src/SD/lpc17xx_gpio.c:35:0:
+../src/SD/lpc17xx_libcfg_default.h:42:0: warning: "DEBUG" redefined
+ #define DEBUG
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/SD/lpc17xx_gpio.c
+ 
+Building file: ../src/SD/lpc17xx_nvic.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_nvic.d" -MT"src/SD/lpc17xx_nvic.o" -MT"src/SD/lpc17xx_nvic.d" -o "src/SD/lpc17xx_nvic.o" "../src/SD/lpc17xx_nvic.c"
+Finished building: ../src/SD/lpc17xx_nvic.c
+ 
+Building file: ../src/SD/lpc17xx_pinsel.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_pinsel.d" -MT"src/SD/lpc17xx_pinsel.o" -MT"src/SD/lpc17xx_pinsel.d" -o "src/SD/lpc17xx_pinsel.o" "../src/SD/lpc17xx_pinsel.c"
+Finished building: ../src/SD/lpc17xx_pinsel.c
+ 
+Building file: ../src/SD/lpc17xx_rtc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_rtc.d" -MT"src/SD/lpc17xx_rtc.o" -MT"src/SD/lpc17xx_rtc.d" -o "src/SD/lpc17xx_rtc.o" "../src/SD/lpc17xx_rtc.c"
+In file included from ../src/SD/lpc17xx_rtc.c:38:0:
+../src/SD/lpc17xx_libcfg_default.h:42:0: warning: "DEBUG" redefined
+ #define DEBUG
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/SD/lpc17xx_rtc.c
+ 
+Building file: ../src/SD/lpc17xx_ssp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_ssp.d" -MT"src/SD/lpc17xx_ssp.o" -MT"src/SD/lpc17xx_ssp.d" -o "src/SD/lpc17xx_ssp.o" "../src/SD/lpc17xx_ssp.c"
+In file included from ../src/SD/lpc17xx_ssp.c:37:0:
+../src/SD/lpc17xx_libcfg_default.h:42:0: warning: "DEBUG" redefined
+ #define DEBUG
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/SD/lpc17xx_ssp.c
+ 
+Building file: ../src/SD/lpc17xx_uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/lpc17xx_uart.d" -MT"src/SD/lpc17xx_uart.o" -MT"src/SD/lpc17xx_uart.d" -o "src/SD/lpc17xx_uart.o" "../src/SD/lpc17xx_uart.c"
+In file included from ../src/SD/lpc17xx_uart.c:36:0:
+../src/SD/lpc17xx_libcfg_default.h:42:0: warning: "DEBUG" redefined
+ #define DEBUG
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+../src/SD/lpc17xx_uart.c: In function 'getUartNum':
+../src/SD/lpc17xx_uart.c:95:12: warning: comparison of distinct pointer types lacks a cast
+  if (UARTx == LPC_UART0) return (0);
+            ^
+../src/SD/lpc17xx_uart.c: In function 'uart_set_divisors':
+../src/SD/lpc17xx_uart.c:127:12: warning: comparison of distinct pointer types lacks a cast
+  if (UARTx == LPC_UART0)
+            ^
+../src/SD/lpc17xx_uart.c: In function 'UART_DeInit':
+../src/SD/lpc17xx_uart.c:350:12: warning: comparison of distinct pointer types lacks a cast
+  if (UARTx == LPC_UART0)
+            ^
+../src/SD/lpc17xx_uart.c: In function 'UART_Init':
+../src/SD/lpc17xx_uart.c:403:11: warning: comparison of distinct pointer types lacks a cast
+  if(UARTx == LPC_UART0)
+           ^
+In file included from ../src/SD/lpc17xx_uart.h:31:0,
+                 from ../src/SD/lpc17xx_uart.c:26:
+../src/SD/lpc17xx_uart.c: In function 'UART0_StdIntHandler':
+C:\proyectos_mios\CMSISv2p00_LPC17xx\inc/LPC17xx.h:999:31: warning: passing argument 1 of 'UART_GenIntHandler' from incompatible pointer type
+ #define LPC_UART0             ((LPC_UART0_TypeDef     *) LPC_UART0_BASE    )
+                               ^
+../src/SD/lpc17xx_uart.c:1499:21: note: in expansion of macro 'LPC_UART0'
+  UART_GenIntHandler(LPC_UART0);
+                     ^
+../src/SD/lpc17xx_uart.c:235:6: note: expected 'struct LPC_UART_TypeDef *' but argument is of type 'struct LPC_UART0_TypeDef *'
+ void UART_GenIntHandler(LPC_UART_TypeDef *UARTx)
+      ^
+Finished building: ../src/SD/lpc17xx_uart.c
+ 
+Building file: ../src/SD/rtc_cal.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/rtc_cal.d" -MT"src/SD/rtc_cal.o" -MT"src/SD/rtc_cal.d" -o "src/SD/rtc_cal.o" "../src/SD/rtc_cal.c"
+Finished building: ../src/SD/rtc_cal.c
+ 
+Building file: ../src/SD/spi_sd_lpc17xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/spi_sd_lpc17xx.d" -MT"src/SD/spi_sd_lpc17xx.o" -MT"src/SD/spi_sd_lpc17xx.d" -o "src/SD/spi_sd_lpc17xx.o" "../src/SD/spi_sd_lpc17xx.c"
+Finished building: ../src/SD/spi_sd_lpc17xx.c
+ 
+Building file: ../src/SD/uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/SD/uart.d" -MT"src/SD/uart.o" -MT"src/SD/uart.d" -o "src/SD/uart.o" "../src/SD/uart.c"
+Finished building: ../src/SD/uart.c
+ 
+Building file: ../src/main-tarjeta_sd.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\drivers_tarjeta_sd\src\SD" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main-tarjeta_sd.d" -MT"src/main-tarjeta_sd.o" -MT"src/main-tarjeta_sd.d" -o "src/main-tarjeta_sd.o" "../src/main-tarjeta_sd.c"
+../src/main-tarjeta_sd.c: In function 'main':
+../src/main-tarjeta_sd.c:17:9: warning: unused variable 'ptr' [-Wunused-variable]
+   char *ptr;
+         ^
+../src/main-tarjeta_sd.c:16:11: warning: variable 'errf' set but not used [-Wunused-but-set-variable]
+   FRESULT errf;
+           ^
+../src/main-tarjeta_sd.c:15:11: warning: variable 'errd' set but not used [-Wunused-but-set-variable]
+   DSTATUS errd;
+           ^
+../src/main-tarjeta_sd.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main-tarjeta_sd.c
+ 
+Building target: drivers_tarjeta_sd.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="drivers_tarjeta_sd.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "drivers_tarjeta_sd_Debug.ld" -o "drivers_tarjeta_sd.axf"  ./src/SD/ccsbcs.o ./src/SD/comm.o ./src/SD/diskio.o ./src/SD/fattime.o ./src/SD/ff.o ./src/SD/ff_test_term.o ./src/SD/init.o ./src/SD/lpc17xx_clkpwr.o ./src/SD/lpc17xx_gpio.o ./src/SD/lpc17xx_libcfg_default.o ./src/SD/lpc17xx_nvic.o ./src/SD/lpc17xx_pinsel.o ./src/SD/lpc17xx_rtc.o ./src/SD/lpc17xx_ssp.o ./src/SD/lpc17xx_uart.o ./src/SD/monitor.o ./src/SD/rtc_cal.o ./src/SD/spi_sd_lpc17xx.o ./src/SD/uart.o  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/main-tarjeta_sd.o   -lCMSISv2p00_LPC17xx
+Finished building target: drivers_tarjeta_sd.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "drivers_tarjeta_sd.axf"; # arm-none-eabi-objcopy -v -O binary "drivers_tarjeta_sd.axf" "drivers_tarjeta_sd.bin" ; # checksum -p LPC1769 -d "drivers_tarjeta_sd.bin";
+   text	   data	    bss	    dec	    hex	filename
+  20208	      8	   7764	  27980	   6d4c	drivers_tarjeta_sd.axf
+ 
+
+15:22:52 Build Finished (took 13s.709ms)
+

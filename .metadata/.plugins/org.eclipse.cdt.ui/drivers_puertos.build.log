@@ -1,0 +1,34 @@
+21:21:03 **** Build of configuration Debug for project drivers_puertos ****
+make -r all 
+Building file: ../src/main-puertos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main-puertos.d" -MT"src/main-puertos.o" -MT"src/main-puertos.d" -o "src/main-puertos.o" "../src/main-puertos.c"
+Finished building: ../src/main-puertos.c
+ 
+Building file: ../src/puertos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/puertos.d" -MT"src/puertos.o" -MT"src/puertos.d" -o "src/puertos.o" "../src/puertos.c"
+../src/puertos.c:10:0: warning: "__USE_CMSIS" redefined
+ #define __USE_CMSIS
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+../src/puertos.c: In function 'ifhigh':
+../src/puertos.c:86:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/puertos.c
+ 
+Building target: drivers_puertos.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="drivers_puertos.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "puertoss_Debug.ld" -o "drivers_puertos.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/main-puertos.o ./src/puertos.o   -lCMSISv2p00_LPC17xx
+Finished building target: drivers_puertos.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "drivers_puertos.axf"; # arm-none-eabi-objcopy -v -O binary "drivers_puertos.axf" "drivers_puertos.bin" ; # checksum -p LPC1769 -d "drivers_puertos.bin";
+   text	   data	    bss	    dec	    hex	filename
+   2088	      0	      0	   2088	    828	drivers_puertos.axf
+ 
+
+21:21:06 Build Finished (took 3s.182ms)
+

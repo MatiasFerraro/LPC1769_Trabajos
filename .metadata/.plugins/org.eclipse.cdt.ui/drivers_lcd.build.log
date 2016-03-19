@@ -1,0 +1,50 @@
+15:46:35 **** Build of configuration Debug for project drivers_lcd ****
+make -r all 
+Building file: ../src/lcd.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/lcd.d" -MT"src/lcd.o" -MT"src/lcd.d" -o "src/lcd.o" "../src/lcd.c"
+../src/lcd.c: In function 'lcd_gotoxy':
+../src/lcd.c:182:8: warning: unused variable 'nibble' [-Wunused-variable]
+    int nibble;
+        ^
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/main-lcd.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main-lcd.d" -MT"src/main-lcd.o" -MT"src/main-lcd.d" -o "src/main-lcd.o" "../src/main-lcd.c"
+../src/main-lcd.c:12:0: warning: "__USE_CMSIS" redefined
+ #define __USE_CMSIS
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+../src/main-lcd.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void) {
+      ^
+Finished building: ../src/main-lcd.c
+ 
+Building file: ../src/puertos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx" -I"C:\proyectos_mios\CMSISv2p00_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/puertos.d" -MT"src/puertos.o" -MT"src/puertos.d" -o "src/puertos.o" "../src/puertos.c"
+../src/puertos.c:10:0: warning: "__USE_CMSIS" redefined
+ #define __USE_CMSIS
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+../src/puertos.c: In function 'ifhigh':
+../src/puertos.c:86:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/puertos.c
+ 
+Building target: drivers_lcd.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="drivers_lcd.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "drivers_lcd_Debug.ld" -o "drivers_lcd.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/lcd.o ./src/main-lcd.o ./src/puertos.o   -lCMSISv2p00_LPC17xx
+Finished building target: drivers_lcd.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "drivers_lcd.axf"; # arm-none-eabi-objcopy -v -O binary "drivers_lcd.axf" "drivers_lcd.bin" ; # checksum -p LPC1769 -d "drivers_lcd.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4364	     84	      8	   4456	   1168	drivers_lcd.axf
+ 
+
+15:46:37 Build Finished (took 2s.201ms)
+

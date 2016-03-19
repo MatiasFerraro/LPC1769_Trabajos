@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\workspace-lpcxpresso\driver_tarjeta_sd_ok"/>
+			<item value="C:\workspace-lpcxpresso\driver_uart_cero"/>
+			<item value="C:\workspace-lpcxpresso\driver_uart_uno_ok"/>
+			<item value="C:\workspace-lpcxpresso\driver_lcd_oo"/>
+			<item value="C:\workspace-lpcxpresso\driver_puertos_ok"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\Examples\NXP\LPC1000\LPC17xx\LPCXpresso176x_cmsis2.zip"/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item value="C:\workspace-lpcxpresso\driver_tarjeta_sd_ok" key="dirname"/>
+	</section>
+</section>

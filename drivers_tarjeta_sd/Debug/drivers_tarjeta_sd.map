@@ -1,0 +1,1761 @@
+Archive member included because of file (symbol)
+
+C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                              ./src/cr_startup_lpc175x_6x.o (SystemInit)
+c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+                              C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+Fatfs               0x234             ./src/SD/ff_test_term.o
+File1               0x224             ./src/SD/ff_test_term.o
+xfunc_in            0x4               ./src/SD/monitor.o
+Finfo               0x20              ./src/SD/ff_test_term.o
+acc_dirs            0x2               ./src/SD/ff_test_term.o
+xfunc_out           0x4               ./src/SD/monitor.o
+acc_files           0x2               ./src/SD/ff_test_term.o
+Timer               0x4               ./src/SD/ff_test_term.o
+Buff                0x1000            ./src/SD/ff_test_term.o
+SysTickCnt          0x4               ./src/SD/init.o
+File2               0x224             ./src/SD/ff_test_term.o
+Lfname              0x100             ./src/SD/ff_test_term.o
+Dir                 0x24              ./src/SD/ff_test_term.o
+acc_size            0x4               ./src/SD/ff_test_term.o
+Line                0x400             ./src/SD/ff_test_term.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/ccsbcs.o
+ .text          0x00000000        0x0 ./src/SD/ccsbcs.o
+ .data          0x00000000        0x0 ./src/SD/ccsbcs.o
+ .bss           0x00000000        0x0 ./src/SD/ccsbcs.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/comm.o
+ .text          0x00000000        0x0 ./src/SD/comm.o
+ .data          0x00000000        0x0 ./src/SD/comm.o
+ .bss           0x00000000        0x0 ./src/SD/comm.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ./src/SD/comm.o
+ .text.NVIC_SetPriority
+                0x00000000       0x54 ./src/SD/comm.o
+ .bss.rb        0x00000000      0x210 ./src/SD/comm.o
+ .bss.TxIntStat
+                0x00000000        0x1 ./src/SD/comm.o
+ .text.UART_IntReceive
+                0x00000000       0x60 ./src/SD/comm.o
+ .text.UART_IntTransmit
+                0x00000000       0x9c ./src/SD/comm.o
+ .text.UART_IntErr
+                0x00000000       0x10 ./src/SD/comm.o
+ .text.UARTSend
+                0x00000000       0x94 ./src/SD/comm.o
+ .text.UARTReceive
+                0x00000000       0x80 ./src/SD/comm.o
+ .text.uart_init_intern
+                0x00000000       0xe8 ./src/SD/comm.o
+ .text.comm_test
+                0x00000000       0x28 ./src/SD/comm.o
+ .text.comm_get
+                0x00000000       0x30 ./src/SD/comm.o
+ .text.comm_put
+                0x00000000       0x30 ./src/SD/comm.o
+ .text.comm_puts
+                0x00000000       0x28 ./src/SD/comm.o
+ .text.comm_init
+                0x00000000        0xc ./src/SD/comm.o
+ .text.comm_txbusy
+                0x00000000       0x20 ./src/SD/comm.o
+ .text.xcomm_put
+                0x00000000       0x18 ./src/SD/comm.o
+ .text.xcomm_get
+                0x00000000       0x10 ./src/SD/comm.o
+ .debug_macro   0x00000000      0x87a ./src/SD/comm.o
+ .debug_macro   0x00000000       0x10 ./src/SD/comm.o
+ .debug_macro   0x00000000      0x12d ./src/SD/comm.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/comm.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/diskio.o
+ .text          0x00000000        0x0 ./src/SD/diskio.o
+ .data          0x00000000        0x0 ./src/SD/diskio.o
+ .bss           0x00000000        0x0 ./src/SD/diskio.o
+ .debug_macro   0x00000000      0x87a ./src/SD/diskio.o
+ .debug_macro   0x00000000       0x10 ./src/SD/diskio.o
+ .debug_macro   0x00000000      0x12d ./src/SD/diskio.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/diskio.o
+ .debug_macro   0x00000000       0x5d ./src/SD/diskio.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/fattime.o
+ .text          0x00000000        0x0 ./src/SD/fattime.o
+ .data          0x00000000        0x0 ./src/SD/fattime.o
+ .bss           0x00000000        0x0 ./src/SD/fattime.o
+ .debug_macro   0x00000000      0x87a ./src/SD/fattime.o
+ .debug_macro   0x00000000       0x10 ./src/SD/fattime.o
+ .debug_macro   0x00000000      0x12d ./src/SD/fattime.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/fattime.o
+ .debug_macro   0x00000000       0x5d ./src/SD/fattime.o
+ .debug_macro   0x00000000       0x2e ./src/SD/fattime.o
+ .debug_macro   0x00000000       0x18 ./src/SD/fattime.o
+ .debug_macro   0x00000000      0x7af ./src/SD/fattime.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff.o
+ .text          0x00000000        0x0 ./src/SD/ff.o
+ .data          0x00000000        0x0 ./src/SD/ff.o
+ .bss           0x00000000        0x0 ./src/SD/ff.o
+ .text.pick_lfn
+                0x00000000       0xcc ./src/SD/ff.o
+ .text.dir_read
+                0x00000000      0x124 ./src/SD/ff.o
+ .text.dir_remove
+                0x00000000       0x94 ./src/SD/ff.o
+ .text.get_fileinfo
+                0x00000000      0x1d4 ./src/SD/ff.o
+ .text.f_read   0x00000000      0x2c0 ./src/SD/ff.o
+ .text.f_chdrive
+                0x00000000       0x2c ./src/SD/ff.o
+ .text.f_chdir  0x00000000       0xcc ./src/SD/ff.o
+ .text.f_lseek  0x00000000      0x2b4 ./src/SD/ff.o
+ .text.f_opendir
+                0x00000000       0xd0 ./src/SD/ff.o
+ .text.f_readdir
+                0x00000000       0x98 ./src/SD/ff.o
+ .text.f_stat   0x00000000       0x78 ./src/SD/ff.o
+ .text.f_getfree
+                0x00000000      0x19c ./src/SD/ff.o
+ .text.f_truncate
+                0x00000000      0x11c ./src/SD/ff.o
+ .text.f_unlink
+                0x00000000      0x1b0 ./src/SD/ff.o
+ .text.f_mkdir  0x00000000      0x2fc ./src/SD/ff.o
+ .text.f_chmod  0x00000000       0xd0 ./src/SD/ff.o
+ .text.f_utime  0x00000000       0xd8 ./src/SD/ff.o
+ .text.f_rename
+                0x00000000      0x238 ./src/SD/ff.o
+ .text.f_mkfs   0x00000000      0x930 ./src/SD/ff.o
+ .text.f_gets   0x00000000       0x70 ./src/SD/ff.o
+ .text.f_putc   0x00000000       0x40 ./src/SD/ff.o
+ .text.f_puts   0x00000000       0x48 ./src/SD/ff.o
+ .text.f_printf
+                0x00000000      0x35c ./src/SD/ff.o
+ .rodata.vst.4541
+                0x00000000       0x18 ./src/SD/ff.o
+ .rodata.cst.4542
+                0x00000000       0x18 ./src/SD/ff.o
+ .debug_macro   0x00000000      0x87a ./src/SD/ff.o
+ .debug_macro   0x00000000       0x10 ./src/SD/ff.o
+ .debug_macro   0x00000000      0x12d ./src/SD/ff.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/ff.o
+ .debug_macro   0x00000000       0x5d ./src/SD/ff.o
+ .debug_macro   0x00000000       0x8a ./src/SD/ff.o
+ .debug_macro   0x00000000      0x257 ./src/SD/ff.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/ff_test_term.o
+ .text          0x00000000        0x0 ./src/SD/ff_test_term.o
+ .data          0x00000000        0x0 ./src/SD/ff_test_term.o
+ .bss           0x00000000        0x0 ./src/SD/ff_test_term.o
+ .text.scan_files
+                0x00000000      0x104 ./src/SD/ff_test_term.o
+ .rodata        0x00000000      0x8b4 ./src/SD/ff_test_term.o
+ .text.put_rc   0x00000000       0x54 ./src/SD/ff_test_term.o
+ .text.ff_test_term
+                0x00000000     0x127c ./src/SD/ff_test_term.o
+ .rodata.ft.5334
+                0x00000000        0x4 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x87a ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x10 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x12d ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x5d ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0xa0 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x8a ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x257 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x1c ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x2e ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x18 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x7af ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000      0x1b1 ./src/SD/ff_test_term.o
+ .debug_macro   0x00000000       0x10 ./src/SD/ff_test_term.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/init.o
+ .text          0x00000000        0x0 ./src/SD/init.o
+ .data          0x00000000        0x0 ./src/SD/init.o
+ .bss           0x00000000        0x0 ./src/SD/init.o
+ .text.startup_delay
+                0x00000000       0x28 ./src/SD/init.o
+ .debug_macro   0x00000000      0x87a ./src/SD/init.o
+ .debug_macro   0x00000000       0x10 ./src/SD/init.o
+ .debug_macro   0x00000000      0x12d ./src/SD/init.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/init.o
+ .debug_macro   0x00000000       0x5d ./src/SD/init.o
+ .debug_macro   0x00000000       0x1c ./src/SD/init.o
+ .debug_macro   0x00000000       0x2e ./src/SD/init.o
+ .debug_macro   0x00000000       0x18 ./src/SD/init.o
+ .debug_macro   0x00000000      0x7af ./src/SD/init.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/init.o
+ .debug_macro   0x00000000       0x10 ./src/SD/init.o
+ .debug_macro   0x00000000       0x94 ./src/SD/init.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_clkpwr.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_clkpwr.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_clkpwr.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_clkpwr.o
+ .text.CLKPWR_Sleep
+                0x00000000       0x1c ./src/SD/lpc17xx_clkpwr.o
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x24 ./src/SD/lpc17xx_clkpwr.o
+ .text.CLKPWR_PowerDown
+                0x00000000       0x24 ./src/SD/lpc17xx_clkpwr.o
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x24 ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_clkpwr.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_gpio.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_gpio.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_gpio.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_HalfWordGetPointer
+                0x00000000       0x74 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ByteGetPointer
+                0x00000000       0x74 ./src/SD/lpc17xx_gpio.o
+ .text.GPIO_ReadValue
+                0x00000000       0x2c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_SetDir
+                0x00000000       0x24 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_SetValue
+                0x00000000       0x1c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ClearValue
+                0x00000000       0x1c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ReadValue
+                0x00000000       0x1c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_SetMask
+                0x00000000       0x48 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_HalfWordSetDir
+                0x00000000       0x9c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_HalfWordSetMask
+                0x00000000       0x9c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_HalfWordSetValue
+                0x00000000       0x3c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_HalfWordClearValue
+                0x00000000       0x3c ./src/SD/lpc17xx_gpio.o
+ .text.FIO_HalfWordReadValue
+                0x00000000       0x40 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ByteSetDir
+                0x00000000       0x78 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ByteSetMask
+                0x00000000       0x84 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ByteSetValue
+                0x00000000       0x38 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ByteClearValue
+                0x00000000       0x38 ./src/SD/lpc17xx_gpio.o
+ .text.FIO_ByteReadValue
+                0x00000000       0x3c ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_gpio.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_libcfg_default.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_libcfg_default.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_libcfg_default.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_libcfg_default.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_libcfg_default.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_libcfg_default.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_libcfg_default.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_libcfg_default.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x00000000       0x5d ./src/SD/lpc17xx_libcfg_default.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_nvic.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_nvic.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_nvic.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_nvic.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_pinsel.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_pinsel.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_pinsel.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_pinsel.o
+ .text.PINSEL_ConfigTraceFunc
+                0x00000000       0x40 ./src/SD/lpc17xx_pinsel.o
+ .text.PINSEL_SetI2C0Pins
+                0x00000000       0x38 ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x00000000      0x143 ./src/SD/lpc17xx_pinsel.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_rtc.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_rtc.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_rtc.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_DeInit
+                0x00000000       0x38 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_ResetClockTickCounter
+                0x00000000       0x48 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_CntIncrIntConfig
+                0x00000000      0x200 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_AlarmIntConfig
+                0x00000000      0x200 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_SetTime
+                0x00000000      0x1bc ./src/SD/lpc17xx_rtc.o
+ .text.RTC_GetTime
+                0x00000000      0x104 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_GetFullTime
+                0x00000000       0xa8 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_SetAlarmTime
+                0x00000000      0x184 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_GetAlarmTime
+                0x00000000       0xb8 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_SetFullAlarmTime
+                0x00000000       0xbc ./src/SD/lpc17xx_rtc.o
+ .text.RTC_GetFullAlarmTime
+                0x00000000       0xac ./src/SD/lpc17xx_rtc.o
+ .text.RTC_GetIntPending
+                0x00000000       0x58 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_ClearIntPending
+                0x00000000       0x48 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_WriteGPREG
+                0x00000000       0x54 ./src/SD/lpc17xx_rtc.o
+ .text.RTC_ReadGPREG
+                0x00000000       0x58 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x1b1 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000      0x2f8 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00000000       0xdd ./src/SD/lpc17xx_rtc.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_ssp.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_ssp.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_ssp.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_IntHandler
+                0x00000000      0x2c4 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_LoopBackCmd
+                0x00000000       0x70 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_SlaveOutputCmd
+                0x00000000       0x70 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_SendData
+                0x00000000       0x40 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_ReceiveData
+                0x00000000       0x3c ./src/SD/lpc17xx_ssp.o
+ .text.SSP_ReadWrite
+                0x00000000      0x3d4 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_GetStatus
+                0x00000000       0x74 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_IntConfig
+                0x00000000       0x84 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_GetRawIntStatus
+                0x00000000       0x6c ./src/SD/lpc17xx_ssp.o
+ .text.SSP_GetIntStatus
+                0x00000000       0x6c ./src/SD/lpc17xx_ssp.o
+ .text.SSP_ClearIntPending
+                0x00000000       0x54 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_DMACmd
+                0x00000000       0x8c ./src/SD/lpc17xx_ssp.o
+ .text.SSP0_StdIntHandler
+                0x00000000       0x18 ./src/SD/lpc17xx_ssp.o
+ .text.SSP1_StdIntHandler
+                0x00000000       0x18 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000      0x2f8 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00000000       0xdd ./src/SD/lpc17xx_ssp.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/lpc17xx_uart.o
+ .text          0x00000000        0x0 ./src/SD/lpc17xx_uart.o
+ .data          0x00000000        0x0 ./src/SD/lpc17xx_uart.o
+ .bss           0x00000000        0x0 ./src/SD/lpc17xx_uart.o
+ .text.uart_set_divisors
+                0x00000000      0x208 ./src/SD/lpc17xx_uart.o
+ .rodata        0x00000000       0x1c ./src/SD/lpc17xx_uart.o
+ .text.UART_DeInit
+                0x00000000       0x98 ./src/SD/lpc17xx_uart.o
+ .text.UART_Init
+                0x00000000      0x2ec ./src/SD/lpc17xx_uart.o
+ .text.UART_ConfigStructInit
+                0x00000000       0x2c ./src/SD/lpc17xx_uart.o
+ .text.UART_SendData
+                0x00000000       0x68 ./src/SD/lpc17xx_uart.o
+ .text.UART_ReceiveData
+                0x00000000       0x64 ./src/SD/lpc17xx_uart.o
+ .text.UART_ForceBreak
+                0x00000000       0x78 ./src/SD/lpc17xx_uart.o
+ .text.UART_IrDAInvtInputCmd
+                0x00000000       0x78 ./src/SD/lpc17xx_uart.o
+ .text.UART_IrDACmd
+                0x00000000       0x74 ./src/SD/lpc17xx_uart.o
+ .text.UART_IrDAPulseDivConfig
+                0x00000000       0x9c ./src/SD/lpc17xx_uart.o
+ .text.UART_IntConfig
+                0x00000000      0x188 ./src/SD/lpc17xx_uart.o
+ .text.UART_GetLineStatus
+                0x00000000       0x64 ./src/SD/lpc17xx_uart.o
+ .text.UART_CheckBusy
+                0x00000000       0x28 ./src/SD/lpc17xx_uart.o
+ .text.UART_FIFOConfig
+                0x00000000      0x158 ./src/SD/lpc17xx_uart.o
+ .text.UART_FIFOConfigStructInit
+                0x00000000       0x2c ./src/SD/lpc17xx_uart.o
+ .text.UART_ABCmd
+                0x00000000      0x134 ./src/SD/lpc17xx_uart.o
+ .text.UART_TxCmd
+                0x00000000       0xc8 ./src/SD/lpc17xx_uart.o
+ .text.UART_FullModemForcePinState
+                0x00000000       0xac ./src/SD/lpc17xx_uart.o
+ .text.UART_FullModemConfigMode
+                0x00000000       0xbc ./src/SD/lpc17xx_uart.o
+ .text.UART_FullModemGetStatus
+                0x00000000       0x30 ./src/SD/lpc17xx_uart.o
+ .text.UART_RS485Config
+                0x00000000      0x184 ./src/SD/lpc17xx_uart.o
+ .text.UART_RS485ReceiverCmd
+                0x00000000       0x48 ./src/SD/lpc17xx_uart.o
+ .text.UART_RS485Send
+                0x00000000       0x7c ./src/SD/lpc17xx_uart.o
+ .text.UART_RS485SendSlvAddr
+                0x00000000       0x20 ./src/SD/lpc17xx_uart.o
+ .text.UART_RS485SendData
+                0x00000000       0x24 ./src/SD/lpc17xx_uart.o
+ .text.UART_Send
+                0x00000000       0xe8 ./src/SD/lpc17xx_uart.o
+ .text.UART_Receive
+                0x00000000       0xb8 ./src/SD/lpc17xx_uart.o
+ .text.UART_SetupCbs
+                0x00000000       0x8c ./src/SD/lpc17xx_uart.o
+ .text.UART1_StdIntHandler
+                0x00000000       0x10 ./src/SD/lpc17xx_uart.o
+ .text.UART2_StdIntHandler
+                0x00000000       0x10 ./src/SD/lpc17xx_uart.o
+ .text.UART3_StdIntHandler
+                0x00000000       0x10 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x87a ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000       0x1c ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000       0x2e ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000       0x10 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x12d ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000       0x18 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x7af ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000       0x63 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x324 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000      0x2f8 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00000000       0xdd ./src/SD/lpc17xx_uart.o
+ .group         0x00000000        0x8 ./src/SD/monitor.o
+ .group         0x00000000        0x8 ./src/SD/monitor.o
+ .group         0x00000000        0x8 ./src/SD/monitor.o
+ .group         0x00000000        0x8 ./src/SD/monitor.o
+ .text          0x00000000        0x0 ./src/SD/monitor.o
+ .data          0x00000000        0x0 ./src/SD/monitor.o
+ .bss           0x00000000        0x0 ./src/SD/monitor.o
+ .text.xputc    0x00000000       0x2c ./src/SD/monitor.o
+ .text.xputs    0x00000000       0x28 ./src/SD/monitor.o
+ .text.xprintf  0x00000000      0x278 ./src/SD/monitor.o
+ .rodata        0x00000000       0x10 ./src/SD/monitor.o
+ .text.put_dump
+                0x00000000       0x94 ./src/SD/monitor.o
+ .text.xatoi    0x00000000      0x154 ./src/SD/monitor.o
+ .text.get_line
+                0x00000000       0xac ./src/SD/monitor.o
+ .text.xstrlen  0x00000000       0x30 ./src/SD/monitor.o
+ .text.xstrcpy  0x00000000       0x38 ./src/SD/monitor.o
+ .text.xmemset  0x00000000       0x38 ./src/SD/monitor.o
+ .text.xstrchr  0x00000000       0x38 ./src/SD/monitor.o
+ .debug_info    0x00000000      0x405 ./src/SD/monitor.o
+ .debug_abbrev  0x00000000      0x16c ./src/SD/monitor.o
+ .debug_aranges
+                0x00000000       0x68 ./src/SD/monitor.o
+ .debug_ranges  0x00000000       0x58 ./src/SD/monitor.o
+ .debug_macro   0x00000000       0x32 ./src/SD/monitor.o
+ .debug_macro   0x00000000      0x87a ./src/SD/monitor.o
+ .debug_macro   0x00000000       0x10 ./src/SD/monitor.o
+ .debug_macro   0x00000000       0x16 ./src/SD/monitor.o
+ .debug_macro   0x00000000       0x22 ./src/SD/monitor.o
+ .debug_line    0x00000000      0x327 ./src/SD/monitor.o
+ .debug_str     0x00000000     0x262a ./src/SD/monitor.o
+ .comment       0x00000000       0x71 ./src/SD/monitor.o
+ .debug_frame   0x00000000      0x1a4 ./src/SD/monitor.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/SD/monitor.o
+ COMMON         0x00000000        0x8 ./src/SD/monitor.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/rtc_cal.o
+ .text          0x00000000        0x0 ./src/SD/rtc_cal.o
+ .data          0x00000000        0x0 ./src/SD/rtc_cal.o
+ .bss           0x00000000        0x0 ./src/SD/rtc_cal.o
+ .text.rtc_cal_settime
+                0x00000000       0x2c ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000      0x87a ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000       0x1c ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000       0x2e ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000       0x10 ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000      0x12d ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000       0x18 ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000      0x7af ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000       0x63 ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000      0x1b1 ./src/SD/rtc_cal.o
+ .debug_macro   0x00000000       0x16 ./src/SD/rtc_cal.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/spi_sd_lpc17xx.o
+ .text          0x00000000        0x0 ./src/SD/spi_sd_lpc17xx.o
+ .data          0x00000000        0x0 ./src/SD/spi_sd_lpc17xx.o
+ .bss           0x00000000        0x0 ./src/SD/spi_sd_lpc17xx.o
+ .rodata.socket_state_mask_cp
+                0x00000000        0x4 ./src/SD/spi_sd_lpc17xx.o
+ .rodata.socket_state_mask_wp
+                0x00000000        0x4 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x87a ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x12d ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0x5d ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0x1c ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0x2e ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0x18 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x7af ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0x40 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x2f8 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000      0x149 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00000000       0xa0 ./src/SD/spi_sd_lpc17xx.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/SD/uart.o
+ .text          0x00000000        0x0 ./src/SD/uart.o
+ .data          0x00000000        0x0 ./src/SD/uart.o
+ .bss           0x00000000        0x0 ./src/SD/uart.o
+ .text.UART0_Init
+                0x00000000       0xa8 ./src/SD/uart.o
+ .text.UART1_Init
+                0x00000000       0xc0 ./src/SD/uart.o
+ .text.UART2_Init
+                0x00000000       0xa8 ./src/SD/uart.o
+ .text.UART3_Init
+                0x00000000       0xa8 ./src/SD/uart.o
+ .text.UART0_Sendchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART1_Sendchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART2_Sendchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART3_Sendchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART0_Getchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART1_Getchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART2_Getchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART3_Getchar
+                0x00000000       0x30 ./src/SD/uart.o
+ .text.UART0_PrintString
+                0x00000000       0x34 ./src/SD/uart.o
+ .text.UART1_PrintString
+                0x00000000       0x34 ./src/SD/uart.o
+ .text.UART2_PrintString
+                0x00000000       0x34 ./src/SD/uart.o
+ .text.UART3_PrintString
+                0x00000000       0x34 ./src/SD/uart.o
+ .debug_info    0x00000000      0xc3a ./src/SD/uart.o
+ .debug_abbrev  0x00000000      0x1f6 ./src/SD/uart.o
+ .debug_aranges
+                0x00000000       0x98 ./src/SD/uart.o
+ .debug_ranges  0x00000000       0x88 ./src/SD/uart.o
+ .debug_macro   0x00000000      0x11d ./src/SD/uart.o
+ .debug_macro   0x00000000      0x87a ./src/SD/uart.o
+ .debug_macro   0x00000000       0x1c ./src/SD/uart.o
+ .debug_macro   0x00000000       0x2e ./src/SD/uart.o
+ .debug_macro   0x00000000       0x10 ./src/SD/uart.o
+ .debug_macro   0x00000000      0x12d ./src/SD/uart.o
+ .debug_macro   0x00000000      0x5b2 ./src/SD/uart.o
+ .debug_macro   0x00000000       0x18 ./src/SD/uart.o
+ .debug_macro   0x00000000      0x7af ./src/SD/uart.o
+ .debug_macro   0x00000000      0x2c7 ./src/SD/uart.o
+ .debug_line    0x00000000      0x30c ./src/SD/uart.o
+ .debug_str     0x00000000     0x82b0 ./src/SD/uart.o
+ .comment       0x00000000       0x71 ./src/SD/uart.o
+ .debug_frame   0x00000000      0x280 ./src/SD/uart.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/SD/uart.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000000      0x87a ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x87a ./src/crp.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 ./src/main-tarjeta_sd.o
+ .text          0x00000000        0x0 ./src/main-tarjeta_sd.o
+ .data          0x00000000        0x0 ./src/main-tarjeta_sd.o
+ .bss           0x00000000        0x0 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x87a ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x10 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x12d ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x5b2 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x5d ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x8a ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x257 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x1c ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x2e ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x18 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x7af ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x2c7 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x46 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0xa0 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x143 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000      0x1b7 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x16 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00000000       0x22 ./src/main-tarjeta_sd.o
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xac C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x10 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x12d C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x2e C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x18 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x7af C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x26 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000      0x174 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_64.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a(division_idiv0.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/SD/ccsbcs.o
+LOAD ./src/SD/comm.o
+LOAD ./src/SD/diskio.o
+LOAD ./src/SD/fattime.o
+LOAD ./src/SD/ff.o
+LOAD ./src/SD/ff_test_term.o
+LOAD ./src/SD/init.o
+LOAD ./src/SD/lpc17xx_clkpwr.o
+LOAD ./src/SD/lpc17xx_gpio.o
+LOAD ./src/SD/lpc17xx_libcfg_default.o
+LOAD ./src/SD/lpc17xx_nvic.o
+LOAD ./src/SD/lpc17xx_pinsel.o
+LOAD ./src/SD/lpc17xx_rtc.o
+LOAD ./src/SD/lpc17xx_ssp.o
+LOAD ./src/SD/lpc17xx_uart.o
+LOAD ./src/SD/monitor.o
+LOAD ./src/SD/rtc_cal.o
+LOAD ./src/SD/spi_sd_lpc17xx.o
+LOAD ./src/SD/uart.o
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD ./src/main-tarjeta_sd.o
+LOAD C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x4ef0
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x4ef0 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x8 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x4ef0 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000008 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x1e54 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x144 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e8                NMI_Handler
+                0x000001f0                HardFault_Handler
+                0x000001f8                MemManage_Handler
+                0x00000200                BusFault_Handler
+                0x00000208                UsageFault_Handler
+                0x00000210                SVC_Handler
+                0x00000218                DebugMon_Handler
+                0x00000220                PendSV_Handler
+                0x00000230                UART1_IRQHandler
+                0x00000230                EINT3_IRQHandler
+                0x00000230                CANActivity_IRQHandler
+                0x00000230                TIMER3_IRQHandler
+                0x00000230                USBActivity_IRQHandler
+                0x00000230                EINT2_IRQHandler
+                0x00000230                IntDefaultHandler
+                0x00000230                PLL0_IRQHandler
+                0x00000230                CAN_IRQHandler
+                0x00000230                I2C0_IRQHandler
+                0x00000230                SSP0_IRQHandler
+                0x00000230                I2C1_IRQHandler
+                0x00000230                I2C2_IRQHandler
+                0x00000230                RTC_IRQHandler
+                0x00000230                TIMER0_IRQHandler
+                0x00000230                SPI_IRQHandler
+                0x00000230                RIT_IRQHandler
+                0x00000230                EINT1_IRQHandler
+                0x00000230                TIMER1_IRQHandler
+                0x00000230                UART2_IRQHandler
+                0x00000230                ADC_IRQHandler
+                0x00000230                SSP1_IRQHandler
+                0x00000230                USB_IRQHandler
+                0x00000230                BOD_IRQHandler
+                0x00000230                PWM1_IRQHandler
+                0x00000230                WDT_IRQHandler
+                0x00000230                I2S_IRQHandler
+                0x00000230                QEI_IRQHandler
+                0x00000230                EINT0_IRQHandler
+                0x00000230                PLL1_IRQHandler
+                0x00000230                DMA_IRQHandler
+                0x00000230                TIMER2_IRQHandler
+                0x00000230                UART3_IRQHandler
+                0x00000230                MCPWM_IRQHandler
+                0x00000230                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000238       0xc4 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.ff_convert
+                0x00000300       0x74 ./src/SD/ccsbcs.o
+                0x00000300                ff_convert
+ .text.ff_wtoupper
+                0x00000374       0x5c ./src/SD/ccsbcs.o
+                0x00000374                ff_wtoupper
+ .text.UART0_IRQHandler
+                0x000003d0        0xc ./src/SD/comm.o
+                0x000003d0                UART0_IRQHandler
+ .text.disk_timerproc
+                0x000003dc        0xc ./src/SD/diskio.o
+                0x000003dc                disk_timerproc
+ .text.disk_initialize
+                0x000003e8       0x40 ./src/SD/diskio.o
+                0x000003e8                disk_initialize
+ .text.disk_status
+                0x00000428       0x40 ./src/SD/diskio.o
+                0x00000428                disk_status
+ .text.disk_read
+                0x00000468       0x54 ./src/SD/diskio.o
+                0x00000468                disk_read
+ .text.disk_write
+                0x000004bc       0x54 ./src/SD/diskio.o
+                0x000004bc                disk_write
+ .text.disk_ioctl
+                0x00000510       0x4c ./src/SD/diskio.o
+                0x00000510                disk_ioctl
+ .text.get_fattime
+                0x0000055c       0x40 ./src/SD/fattime.o
+                0x0000055c                get_fattime
+ .text.mem_cpy  0x0000059c       0x3c ./src/SD/ff.o
+ .text.mem_set  0x000005d8       0x34 ./src/SD/ff.o
+ .text.mem_cmp  0x0000060c       0x50 ./src/SD/ff.o
+ .text.chk_chr  0x0000065c       0x38 ./src/SD/ff.o
+ .text.move_window
+                0x00000694       0xbc ./src/SD/ff.o
+ .text.sync     0x00000750      0x14c ./src/SD/ff.o
+ .text.get_fat  0x0000089c      0x15c ./src/SD/ff.o
+                0x0000089c                get_fat
+ .text.put_fat  0x000009f8      0x1fc ./src/SD/ff.o
+                0x000009f8                put_fat
+ .text.remove_chain
+                0x00000bf4       0x9c ./src/SD/ff.o
+ .text.create_chain
+                0x00000c90      0x108 ./src/SD/ff.o
+ .text.clust2sect
+                0x00000d98       0x40 ./src/SD/ff.o
+                0x00000d98                clust2sect
+ .text.dir_sdi  0x00000dd8      0x104 ./src/SD/ff.o
+ .text.dir_next
+                0x00000edc      0x1a8 ./src/SD/ff.o
+ .text.cmp_lfn  0x00001084       0xdc ./src/SD/ff.o
+ .text.fit_lfn  0x00001160       0xe8 ./src/SD/ff.o
+ .text.gen_numname
+                0x00001248       0xe4 ./src/SD/ff.o
+                0x00001248                gen_numname
+ .text.sum_sfn  0x0000132c       0x44 ./src/SD/ff.o
+ .text.dir_find
+                0x00001370      0x150 ./src/SD/ff.o
+ .text.dir_register
+                0x000014c0      0x278 ./src/SD/ff.o
+ .text.create_name
+                0x00001738      0x3e0 ./src/SD/ff.o
+ .text.follow_path
+                0x00001b18      0x128 ./src/SD/ff.o
+ .text.check_fs
+                0x00001c40       0xc0 ./src/SD/ff.o
+ .text.chk_mounted
+                0x00001d00      0x528 ./src/SD/ff.o
+ .text.validate
+                0x00002228       0x4c ./src/SD/ff.o
+ .text.f_mount  0x00002274       0x54 ./src/SD/ff.o
+                0x00002274                f_mount
+ .text.f_open   0x000022c8      0x2e8 ./src/SD/ff.o
+                0x000022c8                f_open
+ .text.f_write  0x000025b0      0x318 ./src/SD/ff.o
+                0x000025b0                f_write
+ .text.f_sync   0x000028c8      0x184 ./src/SD/ff.o
+                0x000028c8                f_sync
+ .text.f_close  0x00002a4c       0x28 ./src/SD/ff.o
+                0x00002a4c                f_close
+ .text.ff_test_term_timer_callback
+                0x00002a74       0x1c ./src/SD/ff_test_term.o
+                0x00002a74                ff_test_term_timer_callback
+ .text.NVIC_SetPriorityGrouping
+                0x00002a90       0x48 ./src/SD/init.o
+ .text.NVIC_SetPriority
+                0x00002ad8       0x54 ./src/SD/init.o
+ .text.SysTick_Config
+                0x00002b2c       0x44 ./src/SD/init.o
+ .text.LED1_off
+                0x00002b70       0x10 ./src/SD/init.o
+                0x00002b70                LED1_off
+ .text.LED1_on  0x00002b80       0x10 ./src/SD/init.o
+                0x00002b80                LED1_on
+ .text.SysTick_Handler
+                0x00002b90       0x80 ./src/SD/init.o
+                0x00002b90                SysTick_Handler
+ .text.init_in_main
+                0x00002c10       0x88 ./src/SD/init.o
+                0x00002c10                init_in_main
+ .text.CLKPWR_SetPCLKDiv
+                0x00002c98       0x8c ./src/SD/lpc17xx_clkpwr.o
+                0x00002c98                CLKPWR_SetPCLKDiv
+ .text.CLKPWR_GetPCLKSEL
+                0x00002d24       0x4c ./src/SD/lpc17xx_clkpwr.o
+                0x00002d24                CLKPWR_GetPCLKSEL
+ .text.CLKPWR_GetPCLK
+                0x00002d70       0x64 ./src/SD/lpc17xx_clkpwr.o
+                0x00002d70                CLKPWR_GetPCLK
+ .text.CLKPWR_ConfigPPWR
+                0x00002dd4       0x58 ./src/SD/lpc17xx_clkpwr.o
+                0x00002dd4                CLKPWR_ConfigPPWR
+ .text.GPIO_GetPointer
+                0x00002e2c       0x74 ./src/SD/lpc17xx_gpio.o
+ .text.GPIO_SetDir
+                0x00002ea0       0x48 ./src/SD/lpc17xx_gpio.o
+                0x00002ea0                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x00002ee8       0x28 ./src/SD/lpc17xx_gpio.o
+                0x00002ee8                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x00002f10       0x28 ./src/SD/lpc17xx_gpio.o
+                0x00002f10                GPIO_ClearValue
+ .text.check_failed
+                0x00002f38        0xc ./src/SD/lpc17xx_libcfg_default.o
+                0x00002f38                check_failed
+ .text.NVIC_DeInit
+                0x00002f44       0x58 ./src/SD/lpc17xx_nvic.o
+                0x00002f44                NVIC_DeInit
+ .text.NVIC_SCBDeInit
+                0x00002f9c       0x74 ./src/SD/lpc17xx_nvic.o
+                0x00002f9c                NVIC_SCBDeInit
+ .text.NVIC_SetVTOR
+                0x00003010       0x24 ./src/SD/lpc17xx_nvic.o
+                0x00003010                NVIC_SetVTOR
+ .text.PINSEL_SetPinFunc
+                0x00003034       0x80 ./src/SD/lpc17xx_pinsel.o
+                0x00003034                PINSEL_SetPinFunc
+ .text.PINSEL_SetResistorMode
+                0x000030b4       0x80 ./src/SD/lpc17xx_pinsel.o
+                0x000030b4                PINSEL_SetResistorMode
+ .text.PINSEL_SetOpenDrainMode
+                0x00003134       0x6c ./src/SD/lpc17xx_pinsel.o
+                0x00003134                PINSEL_SetOpenDrainMode
+ .text.PINSEL_ConfigPin
+                0x000031a0       0x50 ./src/SD/lpc17xx_pinsel.o
+                0x000031a0                PINSEL_ConfigPin
+ .text.RTC_Init
+                0x000031f0       0x50 ./src/SD/lpc17xx_rtc.o
+                0x000031f0                RTC_Init
+ .text.RTC_Cmd  0x00003240       0x68 ./src/SD/lpc17xx_rtc.o
+                0x00003240                RTC_Cmd
+ .text.RTC_SetFullTime
+                0x000032a8       0xb8 ./src/SD/lpc17xx_rtc.o
+                0x000032a8                RTC_SetFullTime
+ .text.RTC_CalibCounterCmd
+                0x00003360       0x6c ./src/SD/lpc17xx_rtc.o
+                0x00003360                RTC_CalibCounterCmd
+ .text.RTC_CalibConfig
+                0x000033cc       0x74 ./src/SD/lpc17xx_rtc.o
+                0x000033cc                RTC_CalibConfig
+ .text.SSP_getNum
+                0x00003440       0x38 ./src/SD/lpc17xx_ssp.o
+ .text.SSP_SetClock
+                0x00003478       0xc4 ./src/SD/lpc17xx_ssp.o
+                0x00003478                SSP_SetClock
+ .text.SSP_DeInit
+                0x0000353c       0x5c ./src/SD/lpc17xx_ssp.o
+                0x0000353c                SSP_DeInit
+ .text.SSP_Init
+                0x00003598       0xd8 ./src/SD/lpc17xx_ssp.o
+                0x00003598                SSP_Init
+ .text.SSP_ConfigStructInit
+                0x00003670       0x3c ./src/SD/lpc17xx_ssp.o
+                0x00003670                SSP_ConfigStructInit
+ .text.SSP_Cmd  0x000036ac       0x70 ./src/SD/lpc17xx_ssp.o
+                0x000036ac                SSP_Cmd
+ .text.getUartNum
+                0x0000371c       0x48 ./src/SD/lpc17xx_uart.o
+                0x0000371c                getUartNum
+ .text.UART_GenIntHandler
+                0x00003764      0x160 ./src/SD/lpc17xx_uart.o
+                0x00003764                UART_GenIntHandler
+ .text.UART0_StdIntHandler
+                0x000038c4       0x10 ./src/SD/lpc17xx_uart.o
+                0x000038c4                UART0_StdIntHandler
+ .text.rtc_cal_config
+                0x000038d4       0x88 ./src/SD/rtc_cal.o
+                0x000038d4                rtc_cal_config
+ .text.rtc_cal_init
+                0x0000395c       0x38 ./src/SD/rtc_cal.o
+                0x0000395c                rtc_cal_init
+ .text.rtc_cal_gettime
+                0x00003994       0x94 ./src/SD/rtc_cal.o
+                0x00003994                rtc_cal_gettime
+ .text.socket_is_empty
+                0x00003a28       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .text.socket_is_write_protected
+                0x00003a38       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .text.socket_power_on
+                0x00003a48       0x1c ./src/SD/spi_sd_lpc17xx.o
+ .text.socket_power_off
+                0x00003a64       0x1c ./src/SD/spi_sd_lpc17xx.o
+ .text.socket_is_powered
+                0x00003a80       0x18 ./src/SD/spi_sd_lpc17xx.o
+ .text.socket_init
+                0x00003a98       0x44 ./src/SD/spi_sd_lpc17xx.o
+ .text.select_card
+                0x00003adc       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .text.de_select_card
+                0x00003aec       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .text.spi_set_speed
+                0x00003afc       0x34 ./src/SD/spi_sd_lpc17xx.o
+ .text.spi_init
+                0x00003b30       0xc8 ./src/SD/spi_sd_lpc17xx.o
+ .text.spi_close
+                0x00003bf8       0x60 ./src/SD/spi_sd_lpc17xx.o
+                0x00003bf8                spi_close
+ .text.spi_rw   0x00003c58       0x38 ./src/SD/spi_sd_lpc17xx.o
+ .text.rcvr_spi
+                0x00003c90       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .text.spi_rcvr_block
+                0x00003ca0       0xb4 ./src/SD/spi_sd_lpc17xx.o
+ .text.spi_xmit_block
+                0x00003d54       0x98 ./src/SD/spi_sd_lpc17xx.o
+ .text.wait_ready
+                0x00003dec       0x34 ./src/SD/spi_sd_lpc17xx.o
+ .text.release_spi
+                0x00003e20       0x10 ./src/SD/spi_sd_lpc17xx.o
+ .text.power_on
+                0x00003e30       0x30 ./src/SD/spi_sd_lpc17xx.o
+ .text.power_off
+                0x00003e60       0x38 ./src/SD/spi_sd_lpc17xx.o
+                0x00003e60                power_off
+ .text.rcvr_datablock
+                0x00003e98       0x50 ./src/SD/spi_sd_lpc17xx.o
+ .text.xmit_datablock
+                0x00003ee8       0x5c ./src/SD/spi_sd_lpc17xx.o
+ .text.send_cmd
+                0x00003f44       0xd4 ./src/SD/spi_sd_lpc17xx.o
+ .text.MMC_disk_initialize
+                0x00004018      0x194 ./src/SD/spi_sd_lpc17xx.o
+                0x00004018                MMC_disk_initialize
+ .text.MMC_disk_status
+                0x000041ac       0x18 ./src/SD/spi_sd_lpc17xx.o
+                0x000041ac                MMC_disk_status
+ .text.MMC_disk_read
+                0x000041c4       0xc0 ./src/SD/spi_sd_lpc17xx.o
+                0x000041c4                MMC_disk_read
+ .text.MMC_disk_write
+                0x00004284       0xec ./src/SD/spi_sd_lpc17xx.o
+                0x00004284                MMC_disk_write
+ .text.MMC_disk_ioctl
+                0x00004370      0x374 ./src/SD/spi_sd_lpc17xx.o
+                0x00004370                MMC_disk_ioctl
+ .text.MMC_disk_timerproc
+                0x000046e4       0xb8 ./src/SD/spi_sd_lpc17xx.o
+                0x000046e4                MMC_disk_timerproc
+ .text.main     0x0000479c       0x78 ./src/main-tarjeta_sd.o
+                0x0000479c                main
+ .text.SystemInit
+                0x00004814       0xe0 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00004814                SystemInit
+ .text.__weak_main
+                0x000048f4        0x4 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x000048f4                __weak_main
+                0x000048f4                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.Tbl    0x000048f8      0x100 ./src/SD/ccsbcs.o
+ .rodata.tbl_lower.4024
+                0x000049f8      0x1e0 ./src/SD/ccsbcs.o
+ .rodata.tbl_upper.4025
+                0x00004bd8      0x1e0 ./src/SD/ccsbcs.o
+ .rodata.LfnOfs
+                0x00004db8       0x10 ./src/SD/ff.o
+ .rodata        0x00004dc8       0x3c ./src/SD/ff.o
+ .rodata.excvt.4274
+                0x00004e04       0x80 ./src/SD/ff.o
+ .rodata        0x00004e84       0x20 ./src/SD/init.o
+ .rodata        0x00004ea4       0x18 ./src/SD/lpc17xx_rtc.o
+ .rodata        0x00004ebc       0x18 ./src/SD/lpc17xx_ssp.o
+ .rodata        0x00004ed4       0x1c ./src/main-tarjeta_sd.o
+                0x00004ef0                . = ALIGN (0x4)
+
+.glue_7         0x00004ef0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00004ef0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00004ef0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00004ef0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00004ef0        0x0
+ .iplt          0x00000000        0x0 ./src/SD/ccsbcs.o
+
+.rel.dyn        0x00004ef0        0x0
+ .rel.iplt      0x00000000        0x0 ./src/SD/ccsbcs.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00004ef0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00004ef0                __exidx_end = .
+                0x00004ef0                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00004ef0
+ FILL mask 0xff
+                0x2007c000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x8 load address 0x00004ef0
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.Stat     0x10000000        0x4 ./src/SD/spi_sd_lpc17xx.o
+ .data.SystemCoreClock
+                0x10000004        0x4 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x10000004                SystemCoreClock
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _edata = .
+
+.igot.plt       0x10000008        0x0 load address 0x00004ef8
+ .igot.plt      0x00000000        0x0 ./src/SD/ccsbcs.o
+
+.bss_RAM2       0x2007c000        0x0
+                0x2007c000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000008     0x1e54
+                0x10000008                _bss = .
+ *(.bss*)
+ .bss.Fsid      0x10000008        0x2 ./src/SD/ff.o
+ *fill*         0x1000000a        0x2 
+ .bss.FatFs     0x1000000c        0x4 ./src/SD/ff.o
+ .bss.Drive     0x10000010        0x1 ./src/SD/ff.o
+ *fill*         0x10000011        0x3 
+ .bss.LfnBuf    0x10000014      0x200 ./src/SD/ff.o
+ .bss.led_prescale.5238
+                0x10000214        0x4 ./src/SD/init.o
+ .bss.flip.5237
+                0x10000218        0x4 ./src/SD/init.o
+ .bss.div10.5239
+                0x1000021c        0x4 ./src/SD/init.o
+ .bss.sspdat    0x10000220       0x18 ./src/SD/lpc17xx_ssp.o
+ .bss.uartCbsDat
+                0x10000238       0x40 ./src/SD/lpc17xx_uart.o
+                0x10000238                uartCbsDat
+ .bss.pfnModemCbs
+                0x10000278        0x4 ./src/SD/lpc17xx_uart.o
+                0x10000278                pfnModemCbs
+ .bss.Timer1    0x1000027c        0x4 ./src/SD/spi_sd_lpc17xx.o
+ .bss.Timer2    0x10000280        0x4 ./src/SD/spi_sd_lpc17xx.o
+ .bss.CardType  0x10000284        0x1 ./src/SD/spi_sd_lpc17xx.o
+ .bss.socket_powered
+                0x10000285        0x1 ./src/SD/spi_sd_lpc17xx.o
+ *fill*         0x10000286        0x2 
+ .bss.pv.5454   0x10000288        0x4 ./src/SD/spi_sd_lpc17xx.o
+ *(COMMON)
+ COMMON         0x1000028c     0x1bcc ./src/SD/ff_test_term.o
+                0x1000028c                Fatfs
+                0x100004c0                File1
+                0x100006e4                Finfo
+                0x10000704                acc_dirs
+                0x10000706                acc_files
+                0x10000708                Timer
+                0x1000070c                Buff
+                0x1000170c                File2
+                0x10001930                Lfname
+                0x10001a30                Dir
+                0x10001a54                acc_size
+                0x10001a58                Line
+ COMMON         0x10001e58        0x4 ./src/SD/init.o
+                0x10001e58                SysTickCnt
+                0x10001e5c                . = ALIGN (0x4)
+                0x10001e5c                _ebss = .
+                0x10001e5c                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10001e5c        0x0
+                0x10001e5c                _noinit = .
+ *(.noinit*)
+                0x10001e5c                . = ALIGN (0x4)
+                0x10001e5c                _end_noinit = .
+                0x10001e5c                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+OUTPUT(drivers_tarjeta_sd.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x95d6
+ .debug_info    0x00000000      0x17d ./src/SD/ccsbcs.o
+ .debug_info    0x0000017d      0xd29 ./src/SD/comm.o
+ .debug_info    0x00000ea6      0x2aa ./src/SD/diskio.o
+ .debug_info    0x00001150      0x161 ./src/SD/fattime.o
+ .debug_info    0x000012b1     0x1ecb ./src/SD/ff.o
+ .debug_info    0x0000317c      0x7fd ./src/SD/ff_test_term.o
+ .debug_info    0x00003979      0x702 ./src/SD/init.o
+ .debug_info    0x0000407b      0x61f ./src/SD/lpc17xx_clkpwr.o
+ .debug_info    0x0000469a      0xad4 ./src/SD/lpc17xx_gpio.o
+ .debug_info    0x0000516e       0xc5 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_info    0x00005233      0x3bc ./src/SD/lpc17xx_nvic.o
+ .debug_info    0x000055ef      0x455 ./src/SD/lpc17xx_pinsel.o
+ .debug_info    0x00005a44      0x947 ./src/SD/lpc17xx_rtc.o
+ .debug_info    0x0000638b      0x7d5 ./src/SD/lpc17xx_ssp.o
+ .debug_info    0x00006b60     0x1345 ./src/SD/lpc17xx_uart.o
+ .debug_info    0x00007ea5      0x511 ./src/SD/rtc_cal.o
+ .debug_info    0x000083b6      0x8c1 ./src/SD/spi_sd_lpc17xx.o
+ .debug_info    0x00008c77      0x24b ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00008ec2       0x3f ./src/crp.o
+ .debug_info    0x00008f01      0x3bd ./src/main-tarjeta_sd.o
+ .debug_info    0x000092be      0x318 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_abbrev   0x00000000     0x1ec0
+ .debug_abbrev  0x00000000       0x9c ./src/SD/ccsbcs.o
+ .debug_abbrev  0x0000009c      0x30b ./src/SD/comm.o
+ .debug_abbrev  0x000003a7       0xe4 ./src/SD/diskio.o
+ .debug_abbrev  0x0000048b       0xb7 ./src/SD/fattime.o
+ .debug_abbrev  0x00000542      0x247 ./src/SD/ff.o
+ .debug_abbrev  0x00000789      0x1e1 ./src/SD/ff_test_term.o
+ .debug_abbrev  0x0000096a      0x1f6 ./src/SD/init.o
+ .debug_abbrev  0x00000b60      0x1ca ./src/SD/lpc17xx_clkpwr.o
+ .debug_abbrev  0x00000d2a      0x193 ./src/SD/lpc17xx_gpio.o
+ .debug_abbrev  0x00000ebd       0x6c ./src/SD/lpc17xx_libcfg_default.o
+ .debug_abbrev  0x00000f29      0x11e ./src/SD/lpc17xx_nvic.o
+ .debug_abbrev  0x00001047      0x129 ./src/SD/lpc17xx_pinsel.o
+ .debug_abbrev  0x00001170      0x18f ./src/SD/lpc17xx_rtc.o
+ .debug_abbrev  0x000012ff      0x1fb ./src/SD/lpc17xx_ssp.o
+ .debug_abbrev  0x000014fa      0x292 ./src/SD/lpc17xx_uart.o
+ .debug_abbrev  0x0000178c      0x150 ./src/SD/rtc_cal.o
+ .debug_abbrev  0x000018dc      0x2bb ./src/SD/spi_sd_lpc17xx.o
+ .debug_abbrev  0x00001b97       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x00001c8c       0x36 ./src/crp.o
+ .debug_abbrev  0x00001cc2      0x118 ./src/main-tarjeta_sd.o
+ .debug_abbrev  0x00001dda       0xe6 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_aranges  0x00000000      0x9d8
+ .debug_aranges
+                0x00000000       0x28 ./src/SD/ccsbcs.o
+ .debug_aranges
+                0x00000028       0xa0 ./src/SD/comm.o
+ .debug_aranges
+                0x000000c8       0x48 ./src/SD/diskio.o
+ .debug_aranges
+                0x00000110       0x20 ./src/SD/fattime.o
+ .debug_aranges
+                0x00000130      0x1b8 ./src/SD/ff.o
+ .debug_aranges
+                0x000002e8       0x38 ./src/SD/ff_test_term.o
+ .debug_aranges
+                0x00000320       0x58 ./src/SD/init.o
+ .debug_aranges
+                0x00000378       0x58 ./src/SD/lpc17xx_clkpwr.o
+ .debug_aranges
+                0x000003d0       0xc8 ./src/SD/lpc17xx_gpio.o
+ .debug_aranges
+                0x00000498       0x20 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_aranges
+                0x000004b8       0x30 ./src/SD/lpc17xx_nvic.o
+ .debug_aranges
+                0x000004e8       0x48 ./src/SD/lpc17xx_pinsel.o
+ .debug_aranges
+                0x00000530       0xb8 ./src/SD/lpc17xx_rtc.o
+ .debug_aranges
+                0x000005e8       0xb8 ./src/SD/lpc17xx_ssp.o
+ .debug_aranges
+                0x000006a0      0x128 ./src/SD/lpc17xx_uart.o
+ .debug_aranges
+                0x000007c8       0x38 ./src/SD/rtc_cal.o
+ .debug_aranges
+                0x00000800       0xf8 ./src/SD/spi_sd_lpc17xx.o
+ .debug_aranges
+                0x000008f8       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x00000978       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000990       0x20 ./src/main-tarjeta_sd.o
+ .debug_aranges
+                0x000009b0       0x28 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_ranges   0x00000000      0x880
+ .debug_ranges  0x00000000       0x18 ./src/SD/ccsbcs.o
+ .debug_ranges  0x00000018       0x90 ./src/SD/comm.o
+ .debug_ranges  0x000000a8       0x38 ./src/SD/diskio.o
+ .debug_ranges  0x000000e0       0x10 ./src/SD/fattime.o
+ .debug_ranges  0x000000f0      0x1a8 ./src/SD/ff.o
+ .debug_ranges  0x00000298       0x28 ./src/SD/ff_test_term.o
+ .debug_ranges  0x000002c0       0x48 ./src/SD/init.o
+ .debug_ranges  0x00000308       0x48 ./src/SD/lpc17xx_clkpwr.o
+ .debug_ranges  0x00000350       0xb8 ./src/SD/lpc17xx_gpio.o
+ .debug_ranges  0x00000408       0x10 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_ranges  0x00000418       0x20 ./src/SD/lpc17xx_nvic.o
+ .debug_ranges  0x00000438       0x38 ./src/SD/lpc17xx_pinsel.o
+ .debug_ranges  0x00000470       0xa8 ./src/SD/lpc17xx_rtc.o
+ .debug_ranges  0x00000518       0xa8 ./src/SD/lpc17xx_ssp.o
+ .debug_ranges  0x000005c0      0x118 ./src/SD/lpc17xx_uart.o
+ .debug_ranges  0x000006d8       0x28 ./src/SD/rtc_cal.o
+ .debug_ranges  0x00000700       0xe8 ./src/SD/spi_sd_lpc17xx.o
+ .debug_ranges  0x000007e8       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000858       0x10 ./src/main-tarjeta_sd.o
+ .debug_ranges  0x00000868       0x18 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_macro    0x00000000     0x5037
+ .debug_macro   0x00000000       0x74 ./src/SD/ccsbcs.o
+ .debug_macro   0x00000074      0x87a ./src/SD/ccsbcs.o
+ .debug_macro   0x000008ee       0x10 ./src/SD/ccsbcs.o
+ .debug_macro   0x000008fe      0x12d ./src/SD/ccsbcs.o
+ .debug_macro   0x00000a2b      0x5b2 ./src/SD/ccsbcs.o
+ .debug_macro   0x00000fdd       0x5d ./src/SD/ccsbcs.o
+ .debug_macro   0x0000103a       0x8a ./src/SD/ccsbcs.o
+ .debug_macro   0x000010c4      0x257 ./src/SD/ccsbcs.o
+ .debug_macro   0x0000131b       0xe4 ./src/SD/comm.o
+ .debug_macro   0x000013ff       0x1c ./src/SD/comm.o
+ .debug_macro   0x0000141b       0x2e ./src/SD/comm.o
+ .debug_macro   0x00001449       0x18 ./src/SD/comm.o
+ .debug_macro   0x00001461      0x7af ./src/SD/comm.o
+ .debug_macro   0x00001c10      0x2c7 ./src/SD/comm.o
+ .debug_macro   0x00001ed7       0x63 ./src/SD/comm.o
+ .debug_macro   0x00001f3a      0x324 ./src/SD/comm.o
+ .debug_macro   0x0000225e      0x149 ./src/SD/comm.o
+ .debug_macro   0x000023a7       0x7f ./src/SD/diskio.o
+ .debug_macro   0x00002426       0x10 ./src/SD/diskio.o
+ .debug_macro   0x00002436       0x94 ./src/SD/diskio.o
+ .debug_macro   0x000024ca       0xb2 ./src/SD/fattime.o
+ .debug_macro   0x0000257c       0x1c ./src/SD/fattime.o
+ .debug_macro   0x00002598      0x2c7 ./src/SD/fattime.o
+ .debug_macro   0x0000285f      0x1b1 ./src/SD/fattime.o
+ .debug_macro   0x00002a10       0x10 ./src/SD/fattime.o
+ .debug_macro   0x00002a20      0x11c ./src/SD/ff.o
+ .debug_macro   0x00002b3c       0xa0 ./src/SD/ff.o
+ .debug_macro   0x00002bdc       0x1c ./src/SD/ff.o
+ .debug_macro   0x00002bf8       0xd6 ./src/SD/ff_test_term.o
+ .debug_macro   0x00002cce       0x22 ./src/SD/ff_test_term.o
+ .debug_macro   0x00002cf0       0xf4 ./src/SD/init.o
+ .debug_macro   0x00002de4       0x46 ./src/SD/init.o
+ .debug_macro   0x00002e2a      0x143 ./src/SD/init.o
+ .debug_macro   0x00002f6d      0x1b7 ./src/SD/init.o
+ .debug_macro   0x00003124       0x16 ./src/SD/init.o
+ .debug_macro   0x0000313a       0x8d ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x000031c7      0x2f8 ./src/SD/lpc17xx_clkpwr.o
+ .debug_macro   0x000034bf       0x96 ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00003555       0x40 ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00003595       0xdd ./src/SD/lpc17xx_gpio.o
+ .debug_macro   0x00003672       0x5a ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x000036cc       0xd7 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_macro   0x000037a3       0x8e ./src/SD/lpc17xx_nvic.o
+ .debug_macro   0x00003831       0x8d ./src/SD/lpc17xx_pinsel.o
+ .debug_macro   0x000038be       0xa9 ./src/SD/lpc17xx_rtc.o
+ .debug_macro   0x00003967       0xa9 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00003a10      0x2a9 ./src/SD/lpc17xx_ssp.o
+ .debug_macro   0x00003cb9       0xa9 ./src/SD/lpc17xx_uart.o
+ .debug_macro   0x00003d62       0xa2 ./src/SD/rtc_cal.o
+ .debug_macro   0x00003e04      0x18f ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00003f93      0x2af ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x00004242      0x2e9 ./src/SD/spi_sd_lpc17xx.o
+ .debug_macro   0x0000452b       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00004548       0x1a ./src/crp.o
+ .debug_macro   0x00004562       0x34 ./src/crp.o
+ .debug_macro   0x00004596      0x102 ./src/main-tarjeta_sd.o
+ .debug_macro   0x00004698      0x12b C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x000047c3      0x874 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_line     0x00000000     0x5404
+ .debug_line    0x00000000      0x18b ./src/SD/ccsbcs.o
+ .debug_line    0x0000018b      0x3a5 ./src/SD/comm.o
+ .debug_line    0x00000530      0x1c2 ./src/SD/diskio.o
+ .debug_line    0x000006f2      0x1c2 ./src/SD/fattime.o
+ .debug_line    0x000008b4     0x12ba ./src/SD/ff.o
+ .debug_line    0x00001b6e      0x68e ./src/SD/ff_test_term.o
+ .debug_line    0x000021fc      0x2e4 ./src/SD/init.o
+ .debug_line    0x000024e0      0x285 ./src/SD/lpc17xx_clkpwr.o
+ .debug_line    0x00002765      0x3a4 ./src/SD/lpc17xx_gpio.o
+ .debug_line    0x00002b09      0x140 ./src/SD/lpc17xx_libcfg_default.o
+ .debug_line    0x00002c49      0x1f7 ./src/SD/lpc17xx_nvic.o
+ .debug_line    0x00002e40      0x21f ./src/SD/lpc17xx_pinsel.o
+ .debug_line    0x0000305f      0x64f ./src/SD/lpc17xx_rtc.o
+ .debug_line    0x000036ae      0x5d1 ./src/SD/lpc17xx_ssp.o
+ .debug_line    0x00003c7f      0x90f ./src/SD/lpc17xx_uart.o
+ .debug_line    0x0000458e      0x20f ./src/SD/rtc_cal.o
+ .debug_line    0x0000479d      0x6c7 ./src/SD/spi_sd_lpc17xx.o
+ .debug_line    0x00004e64       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x00004f39       0x78 ./src/crp.o
+ .debug_line    0x00004fb1      0x27d ./src/main-tarjeta_sd.o
+ .debug_line    0x0000522e      0x1d6 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_str      0x00000000    0x11cda
+ .debug_str     0x00000000     0x478e ./src/SD/ccsbcs.o
+                               0x483b (size before relaxing)
+ .debug_str     0x0000478e     0x65b1 ./src/SD/comm.o
+                               0xa32d (size before relaxing)
+ .debug_str     0x0000ad3f      0x20b ./src/SD/diskio.o
+                               0x3fef (size before relaxing)
+ .debug_str     0x0000af4a      0x8ad ./src/SD/fattime.o
+                               0x873f (size before relaxing)
+ .debug_str     0x0000b7f7      0x74a ./src/SD/ff.o
+                               0x5161 (size before relaxing)
+ .debug_str     0x0000bf41       0xef ./src/SD/ff_test_term.o
+                               0x964f (size before relaxing)
+ .debug_str     0x0000c030      0x376 ./src/SD/init.o
+                               0x93bd (size before relaxing)
+ .debug_str     0x0000c3a6     0x13de ./src/SD/lpc17xx_clkpwr.o
+                               0x9309 (size before relaxing)
+ .debug_str     0x0000d784      0x4a9 ./src/SD/lpc17xx_gpio.o
+                               0x8552 (size before relaxing)
+ .debug_str     0x0000dc2d       0x35 ./src/SD/lpc17xx_libcfg_default.o
+                               0x3f0a (size before relaxing)
+ .debug_str     0x0000dc62       0x62 ./src/SD/lpc17xx_nvic.o
+                               0x7f8c (size before relaxing)
+ .debug_str     0x0000dcc4      0x217 ./src/SD/lpc17xx_pinsel.o
+                               0x8593 (size before relaxing)
+ .debug_str     0x0000dedb      0x3c0 ./src/SD/lpc17xx_rtc.o
+                               0x9e7c (size before relaxing)
+ .debug_str     0x0000e29b     0x12ec ./src/SD/lpc17xx_ssp.o
+                               0xa53a (size before relaxing)
+ .debug_str     0x0000f587      0x7be ./src/SD/lpc17xx_uart.o
+                               0xb44d (size before relaxing)
+ .debug_str     0x0000fd45       0xf6 ./src/SD/rtc_cal.o
+                               0x8984 (size before relaxing)
+ .debug_str     0x0000fe3b     0x1800 ./src/SD/spi_sd_lpc17xx.o
+                               0xc261 (size before relaxing)
+ .debug_str     0x0001163b      0x1b2 ./src/cr_startup_lpc175x_6x.o
+                               0x263f (size before relaxing)
+ .debug_str     0x000117ed       0xe9 ./src/crp.o
+                               0x2557 (size before relaxing)
+ .debug_str     0x000118d6       0x2c ./src/main-tarjeta_sd.o
+                               0x9c1c (size before relaxing)
+ .debug_str     0x00011902      0x3d8 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                               0x80dc (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/SD/ccsbcs.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/SD/comm.o
+ .comment       0x00000000       0x71 ./src/SD/diskio.o
+ .comment       0x00000000       0x71 ./src/SD/fattime.o
+ .comment       0x00000000       0x71 ./src/SD/ff.o
+ .comment       0x00000000       0x71 ./src/SD/ff_test_term.o
+ .comment       0x00000000       0x71 ./src/SD/init.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_clkpwr.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_gpio.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_libcfg_default.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_nvic.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_pinsel.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_rtc.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_ssp.o
+ .comment       0x00000000       0x71 ./src/SD/lpc17xx_uart.o
+ .comment       0x00000000       0x71 ./src/SD/rtc_cal.o
+ .comment       0x00000000       0x71 ./src/SD/spi_sd_lpc17xx.o
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc175x_6x.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/main-tarjeta_sd.o
+ .comment       0x00000000       0x71 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/SD/ccsbcs.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/SD/comm.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/SD/diskio.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/SD/fattime.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/SD/ff.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/SD/ff_test_term.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/SD/init.o
+ .ARM.attributes
+                0x00000165       0x33 ./src/SD/lpc17xx_clkpwr.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/SD/lpc17xx_gpio.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src/SD/lpc17xx_libcfg_default.o
+ .ARM.attributes
+                0x000001fe       0x33 ./src/SD/lpc17xx_nvic.o
+ .ARM.attributes
+                0x00000231       0x33 ./src/SD/lpc17xx_pinsel.o
+ .ARM.attributes
+                0x00000264       0x33 ./src/SD/lpc17xx_rtc.o
+ .ARM.attributes
+                0x00000297       0x33 ./src/SD/lpc17xx_ssp.o
+ .ARM.attributes
+                0x000002ca       0x33 ./src/SD/lpc17xx_uart.o
+ .ARM.attributes
+                0x000002fd       0x33 ./src/SD/rtc_cal.o
+ .ARM.attributes
+                0x00000330       0x33 ./src/SD/spi_sd_lpc17xx.o
+ .ARM.attributes
+                0x00000363       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x00000396       0x33 ./src/crp.o
+ .ARM.attributes
+                0x000003c9       0x33 ./src/main-tarjeta_sd.o
+ .ARM.attributes
+                0x000003fc       0x33 C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x0000042f       0x33 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000     0x2458
+ .debug_frame   0x00000000       0x60 ./src/SD/ccsbcs.o
+ .debug_frame   0x00000060      0x248 ./src/SD/comm.o
+ .debug_frame   0x000002a8       0xe0 ./src/SD/diskio.o
+ .debug_frame   0x00000388       0x34 ./src/SD/fattime.o
+ .debug_frame   0x000003bc      0x7cc ./src/SD/ff.o
+ .debug_frame   0x00000b88       0xa4 ./src/SD/ff_test_term.o
+ .debug_frame   0x00000c2c      0x128 ./src/SD/init.o
+ .debug_frame   0x00000d54      0x12c ./src/SD/lpc17xx_clkpwr.o
+ .debug_frame   0x00000e80      0x344 ./src/SD/lpc17xx_gpio.o
+ .debug_frame   0x000011c4       0x2c ./src/SD/lpc17xx_libcfg_default.o
+ .debug_frame   0x000011f0       0x88 ./src/SD/lpc17xx_nvic.o
+ .debug_frame   0x00001278       0xfc ./src/SD/lpc17xx_pinsel.o
+ .debug_frame   0x00001374      0x2e4 ./src/SD/lpc17xx_rtc.o
+ .debug_frame   0x00001658      0x2e0 ./src/SD/lpc17xx_ssp.o
+ .debug_frame   0x00001938      0x4d4 ./src/SD/lpc17xx_uart.o
+ .debug_frame   0x00001e0c       0xa4 ./src/SD/rtc_cal.o
+ .debug_frame   0x00001eb0      0x3c8 ./src/SD/spi_sd_lpc17xx.o
+ .debug_frame   0x00002278      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000023e8       0x34 ./src/main-tarjeta_sd.o
+ .debug_frame   0x0000241c       0x3c C:\proyectos_mios\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)

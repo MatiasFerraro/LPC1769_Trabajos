@@ -1,0 +1,44 @@
+19:35:52 **** Incremental Build of configuration Release for project driver_uart_uno ****
+make -r all 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DNDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\ejemplo\CMSISv2p00_LPC17xx\inc" -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DNDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\ejemplo\CMSISv2p00_LPC17xx\inc" -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/main-uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DNDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\ejemplo\CMSISv2p00_LPC17xx\inc" -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main-uart.d" -MT"src/main-uart.o" -MT"src/main-uart.d" -o "src/main-uart.o" "../src/main-uart.c"
+Finished building: ../src/main-uart.c
+ 
+Building file: ../src/puertos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DNDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\ejemplo\CMSISv2p00_LPC17xx\inc" -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/puertos.d" -MT"src/puertos.o" -MT"src/puertos.d" -o "src/puertos.o" "../src/puertos.c"
+../src/puertos.c:10:0: warning: "__USE_CMSIS" redefined
+ #define __USE_CMSIS
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+../src/puertos.c: In function 'ifhigh':
+../src/puertos.c:86:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/puertos.c
+ 
+Building file: ../src/uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DNDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSIS_CORE_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\ejemplo\CMSISv2p00_LPC17xx\inc" -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/uart.d" -MT"src/uart.o" -MT"src/uart.d" -o "src/uart.o" "../src/uart.c"
+Finished building: ../src/uart.c
+ 
+Building target: driver_uart_uno.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="driver_uart_uno.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "driver_uart_dos_Release.ld" -o "driver_uart_uno.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/main-uart.o ./src/puertos.o ./src/uart.o   -lCMSIS_CORE_LPC17xx
+c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/ld.exe: cannot find -lCMSIS_CORE_LPC17xx
+collect2.exe: error: ld returned 1 exit status
+make: *** [driver_uart_uno.axf] Error 1
+
+19:35:57 Build Finished (took 5s.708ms)
+
